@@ -1,0 +1,48 @@
+{
+  "name": "Phoenix",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/css/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "author": "ui-market.com",
+  "license": "",
+  "devDependencies": {
+    "autoprefixer": "^9.4.5",
+    "clone": "^2.1.2",
+    "gulp": "^4.0.0",
+    "gulp-base64": "^0.1.3",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^2.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap-scss": "^4.2.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-watch": "^4.3.3",
+    "imagemin-pngquant": "^7.0.0",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "slick-carousel": "^1.8.1"
+  }
+}
